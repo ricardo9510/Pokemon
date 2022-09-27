@@ -1,0 +1,132 @@
+.body{
+    width: 100%;
+    min-height: 750px;
+    background: url("../assets/images/background.jpg") repeat;
+    padding: 100px 250px;
+}
+.searchTitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+.searchInput{
+    width: 200px;
+    height: 35px;
+    padding-left: 35px;
+    border-color: #cccccc;
+    border-radius: 3px;
+}
+.searchIcon{
+    margin-left: -190px;
+    margin-top: -5px;
+    width: 20px;
+}
+.plusButton{
+    float: right;
+    width: 100px;
+    height: 35px;
+    background-color: #6458f6;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.plusBL{
+    width: fit-content;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 9px;
+    margin-top: 4px;
+}
+.plusImg{
+    width: 15px;
+    height: 15px;
+    margin-top: 9px;
+    margin-left: 13px;
+}
+.table{
+    margin-top: 25px;
+    border-color: #737373;
+    background-color: #fff;
+}
+th, td{
+    text-align: center;
+}
+.addTitle{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.add{
+   border: 2px solid #737373; 
+   border-radius: 3px;
+   margin-top: 30px;
+   padding: 30px 10px 20px 10px;
+   background-color: #fff;
+   width: 100%;
+}
+.addLR{
+    width: 100%;
+    display: flex;
+}
+.addLN{
+    display: flex;
+}
+.addNameI{
+    padding-left: 15px;
+    margin-left: 15px;
+    width: 45%;
+}
+.addLeft{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 50%;
+}
+.addRight{
+    width: 50%;
+    padding-top: 60px;
+}
+.addButtons{
+    display: flex;
+    width: fit-content;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.addBSave, .addBCancel{
+    width: 100px;
+    height: 35px;
+    background-color: #6458f6;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+}
+.addBCancel{
+    margin-left: 20px;
+}
+.addBL{
+    width: fit-content;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.disable{
+    background-color: #cfccf7;
+    cursor: not-allowed;
+}
+.sliderDiv{
+    display: flex;
+}
+.MuiSlider-root{
+    width: 60% !important;
+    margin-left: 15px !important;
+    margin-top: -2px !important;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
